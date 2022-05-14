@@ -10,7 +10,6 @@ import (
 
 	"github.com/mmcdole/gofeed"
 
-	"cloud.google.com/go/storage"
 	"gocloud.dev/blob"
 
 	//use gcs
@@ -28,7 +27,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
 	feed, err := fp.ParseURL(NHK_FEED_URL)
 	if err != nil {
-		log.Printf("failed to get and parse nhk rss feed, %w", err)
+		log.Printf("failed to get and parse nhk rss feed, %s", err)
 		sendError(w, http.StatusInternalServerError)
 		return
 	}
@@ -42,31 +41,31 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Printf("Failed to setup bucket: %s", err)
 		sendError(w, http.StatusInternalServerError)
+		return
 	}
-
-	beforeWrite := func(as func(interface{}) bool) error {
-		var sw *storage.Writer
-		if as(&sw) {
-			sw.PredefinedACL = "publicRead"
-		}
-		return nil
-	}
+	defer b.Close()
 
 	rssFileWriter, err := b.NewWriter(ctx, GCP_OBJECT, &blob.WriterOptions{
 		ContentType: "application/rss+xml;charset=utf-8",
-		BeforeWrite: beforeWrite,
 	})
-
 	if err != nil {
 		log.Printf("Failed to write rss file to bucket: %s", err)
 		sendError(w, http.StatusInternalServerError)
+		return
 	}
 
 	err = writeRss(rssFileWriter, feed)
-
 	if err != nil {
-		log.Printf("failed to generate final rss %w", err)
+		log.Printf("failed to generate final rss %s", err)
 		sendError(w, http.StatusInternalServerError)
+		return
+	}
+
+	err = rssFileWriter.Close()
+	if err != nil {
+		log.Printf("failed to write rss file: %s", err)
+		sendError(w, http.StatusInternalServerError)
+		return
 	}
 
 	w.WriteHeader(http.StatusOK)
