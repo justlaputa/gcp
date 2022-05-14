@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>NHKラジオニュース</title>
+    <link>https://www.nhk.or.jp/radionews/</link>
+    <language>ja</language>
+    <copyright>NHK (Japan Broadcasting Corporation)</copyright>
+    <itunes:author>NHK (Japan Broadcasting Corporation)</itunes:author>
+    <description>NHKラジオニュースを、いつでもどこでもお聞きになれるサービスです。</description>
+    <itunes:category text="News &amp; Politics" />
+    <itunes:image href="https://www.nhk.or.jp/s-media/img/F261_thumbnail.jpg" />
+    <lastBuildDate>{{.Updated}}</lastBuildDate>
+    <itunes:keywords>news, radio, nhk</itunes:keywords>
+    <itunes:owner>
+      <itunes:email>radio-podcast@nhk.jp</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:new-feed-url>https://www.nhk.or.jp/s-media/news/podcast/list/v1/all.xml</itunes:new-feed-url>
+    {{range .Items}}
+    <item>
+      <title>{{.Title}}</title>
+      <enclosure url="{{ (index .Enclosures 0).URL }}" length="{{ (index .Enclosures 0).Length }}" type="{{ (index .Enclosures 0).Type }}" />
+      <pubDate>{{.Published}}</pubDate>
+      <guid isPermaLink="false">{{.GUID}}</guid>
+      <description>{{.Description}}</description>
+      <itunes:duration>{{.ITunesExt.Duration}}</itunes:duration>
+    </item>
+    {{end}}
+  </channel>
+</rss>

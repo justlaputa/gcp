@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>NHKラジオニュース</title>
+    <link>https://www.nhk.or.jp/radionews/</link>
+    <language>ja</language>
+    <copyright>NHK (Japan Broadcasting Corporation)</copyright>
+    <itunes:author>NHK (Japan Broadcasting Corporation)</itunes:author>
+    <description>NHKラジオニュースを、いつでもどこでもお聞きになれるサービスです。</description>
+    <itunes:category text="News &amp; Politics" />
+    <itunes:image href="https://www.nhk.or.jp/s-media/img/F261_thumbnail.jpg" />
+    <lastBuildDate>Sat, 14 May 2022 18:10:18 +0900</lastBuildDate>
+    <itunes:keywords>news, radio, nhk</itunes:keywords>
+    <itunes:owner>
+      <itunes:email>radio-podcast@nhk.jp</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:new-feed-url>https://www.nhk.or.jp/s-media/news/podcast/list/v1/all.xml</itunes:new-feed-url>
+    <item>
+      <title>05月14日 午後６時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/fc715f14eab1146600811046da33c7b7_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 18:05:00 +0900</pubDate>
+      <guid isPermaLink="false">fc715f14eab1146600811046da33c7b7</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午後４時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/7ad501cccba5726da8b361e924fd43b5_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 16:05:00 +0900</pubDate>
+      <guid isPermaLink="false">7ad501cccba5726da8b361e924fd43b5</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午後３時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/61d854d82430987dc6cae673a29d7466_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 15:05:00 +0900</pubDate>
+      <guid isPermaLink="false">61d854d82430987dc6cae673a29d7466</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午後２時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/a3ad51acf0b681bc5df57a3d578e6107_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 14:05:00 +0900</pubDate>
+      <guid isPermaLink="false">a3ad51acf0b681bc5df57a3d578e6107</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午後１時のニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/65fa2017efbb3e8de2ac7f8bc697500b_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 13:05:00 +0900</pubDate>
+      <guid isPermaLink="false">65fa2017efbb3e8de2ac7f8bc697500b</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 正午のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/266416b29b162e19afccde694522ef0e_64k.mp3" length="4800429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 12:10:00 +0900</pubDate>
+      <guid isPermaLink="false">266416b29b162e19afccde694522ef0e</guid>
+      <description></description>
+      <itunes:duration>00:10:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午前１１時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/4d39e9900a17a4a26d78eb67f31551aa_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 11:05:00 +0900</pubDate>
+      <guid isPermaLink="false">4d39e9900a17a4a26d78eb67f31551aa</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午前１０時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/2c9a387489dfcdcdf287a1afdccf38c8_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 10:05:00 +0900</pubDate>
+      <guid isPermaLink="false">2c9a387489dfcdcdf287a1afdccf38c8</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午前９時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/af555c8c189a71f0de40e7cf8a78e945_64k.mp3" length="1996653" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 09:05:00 +0900</pubDate>
+      <guid isPermaLink="false">af555c8c189a71f0de40e7cf8a78e945</guid>
+      <description></description>
+      <itunes:duration>00:04:09</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午前８時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/bc35e9380c1761057c7266d41a73feb1_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 08:05:00 +0900</pubDate>
+      <guid isPermaLink="false">bc35e9380c1761057c7266d41a73feb1</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午前７時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/ffa0446c9306ff06d33dfa997956b288_64k.mp3" length="7200621" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 07:15:00 +0900</pubDate>
+      <guid isPermaLink="false">ffa0446c9306ff06d33dfa997956b288</guid>
+      <description></description>
+      <itunes:duration>00:15:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月14日 午前０時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/20c5f88ba805a35222d200feeb5c95eb_64k.mp3" length="4800429" type="audio/mp3" />
+      <pubDate>Sat, 14 May 2022 00:10:00 +0900</pubDate>
+      <guid isPermaLink="false">20c5f88ba805a35222d200feeb5c95eb</guid>
+      <description></description>
+      <itunes:duration>00:10:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月13日 夜１１時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/36be9ad9ed0039117884cb821df5465e_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Fri, 13 May 2022 23:05:00 +0900</pubDate>
+      <guid isPermaLink="false">36be9ad9ed0039117884cb821df5465e</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月13日 夜１０時のNHKニュース（NHKジャーナル）</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/0d5d3e0f1f0f7fdf43a64c5ee8c087ab_64k.mp3" length="26400621" type="audio/mp3" />
+      <pubDate>Fri, 13 May 2022 22:55:00 +0900</pubDate>
+      <guid isPermaLink="false">0d5d3e0f1f0f7fdf43a64c5ee8c087ab</guid>
+      <description></description>
+      <itunes:duration>00:55:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月13日 夜９時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/212bd094ed74e1e0aaccade72d452991_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Fri, 13 May 2022 21:05:00 +0900</pubDate>
+      <guid isPermaLink="false">212bd094ed74e1e0aaccade72d452991</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月13日 夜８時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/0328a72e3318bebc3d8e0cf25aaf35bb_64k.mp3" length="2400429" type="audio/mp3" />
+      <pubDate>Fri, 13 May 2022 20:05:00 +0900</pubDate>
+      <guid isPermaLink="false">0328a72e3318bebc3d8e0cf25aaf35bb</guid>
+      <description></description>
+      <itunes:duration>00:05:00</itunes:duration>
+    </item>
+    <item>
+      <title>05月13日 夜７時のNHKニュース</title>
+      <enclosure url="https://www.nhk.or.jp/s-media/news/podcast/audio/baa60c6da7245ffa403033390cf8282c_64k.mp3" length="14400429" type="audio/mp3" />
+      <pubDate>Fri, 13 May 2022 19:30:00 +0900</pubDate>
+      <guid isPermaLink="false">baa60c6da7245ffa403033390cf8282c</guid>
+      <description></description>
+      <itunes:duration>00:30:00</itunes:duration>
+    </item>
+  </channel>
+</rss>
