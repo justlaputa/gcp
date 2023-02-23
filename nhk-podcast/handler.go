@@ -86,7 +86,7 @@ func filter(items []*gofeed.Item) []*gofeed.Item {
 		return false
 	}
 
-	titleFilterKeys := []string{"午前７時", "夜７時"}
+	titleFilterKeys := []string{"午前７時"}
 
 	keepItems := []*gofeed.Item{}
 
